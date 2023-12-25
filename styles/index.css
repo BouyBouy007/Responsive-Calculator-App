@@ -6,7 +6,7 @@
 }
 
 .top-container {
-  color: var(--text-white-theme1);
+  color: var(--top-text);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,7 +44,7 @@
 .slider {
   -webkit-appearance: none;
   appearance: none;
-  background-color: var(--toggle-bg-theme1);
+  background-color: var(--toggle-bg);
   width: 100%;
   height: 24px;
   border-radius: 12px;
@@ -59,7 +59,7 @@
   width: 15px;
   height: 15px;
   border-radius: 10px;
-  background-color: var(--red-theme1);
+  background-color: var(--equals-bg);
   transition: background-color 0.3s;
 }
 
@@ -68,8 +68,8 @@
 }
 
 .display-calculation {
-  background-color: var(--screen-bg-theme1);
-  color: var(--text-white-theme1);
+  background-color: var(--screen-bg);
+  color: var(--display-text);
   text-align: right;
   font-size: 32px;
   padding: 10px;
@@ -79,7 +79,7 @@
 }
 
 .input-container {
-  background-color: var(--toggle-bg-theme1);
+  background-color: var(--keypad-bg);
   padding: 10px;
   border-radius: 8px;
   transition: background-color 0.3s;
@@ -104,33 +104,33 @@
 }
 
 .calc-button {
-  background-color: var(--orange-theme1);
-  color: var(--text-dark-theme1);
-  box-shadow: inset 0 -4px 0 var(--gray-orange-theme1);
+  background-color: var(--calc-bg);
+  color: var(--calc-text);
+  box-shadow: inset 0 -4px 0 var(--calc-shadow);
 }
 
 .del-button, .reset-button {
-  background-color: var(--key-bg-theme1);
-  color: var(--text-white-theme1);
-  box-shadow: inset 0 -4px 0 var(--key-shadow-theme1);
+  background-color: var(--key-bg);
+  color: var(--del-text);
+  box-shadow: inset 0 -4px 0 var(--key-shadow);
 }
 
 .equals-button {
-  background-color: var(--red-theme1);
-  color: var(--text-white-theme1);
-  box-shadow: inset 0 -4px 0 var(--dark-red-theme1);
+  background-color: var(--equals-bg);
+  color: var(--equals-text);
+  box-shadow: inset 0 -4px 0 var(--equals-shadow);
 }
 
 .calc-button:hover {
-  background-color: hsl(30, 25%, 100%);
+  background-color: var(--calc-hover);
 }
 
 .del-button:hover, .reset-button:hover {
-  background-color: hsl(225, 50%, 80%);
+  background-color: var(--key-hover);
 }
 
 .equals-button:hover {
-  background-color: hsl(6, 63%, 60%);
+  background-color: var(--equals-hover);
 }
 
 .attribution { 

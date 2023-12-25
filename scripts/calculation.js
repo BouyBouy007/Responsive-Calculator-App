@@ -22,7 +22,7 @@ function calculateAnswer() {
           break;
         case '=':
           const result = eval(calculation);
-          calculation = result.toString();
+          calculation = result.toLocaleString();
           break;
         case '×':
           calculation += '*';
