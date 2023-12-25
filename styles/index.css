@@ -143,6 +143,10 @@
 }
 
 @media (max-width: 375px) {
+  body {
+    min-width: 350px;
+  }
+  
   .calculator-container {
     max-width: unset;
     margin: 50px 30px;
