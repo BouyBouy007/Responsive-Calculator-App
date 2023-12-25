@@ -1,0 +1,45 @@
+body {
+  font-family: 'League Spartan', sans-serif;
+  background-color: var(--bg-theme1);
+  transition: background-color 0.3s;
+}
+
+:root {
+  /* Theme 1 */
+  --bg-theme1: hsl(222, 26%, 31%);
+  --toggle-bg-theme1: hsl(223, 31%, 20%);
+  --screen-bg-theme1: hsl(224, 36%, 15%);
+  --key-bg-theme1: hsl(225, 21%, 49%);
+  --key-shadow-theme1: hsl(224, 28%, 35%);
+  --red-theme1: hsl(6, 63%, 50%);
+  --dark-red-theme1: hsl(6, 70%, 34%);
+  --orange-theme1: hsl(30, 25%, 89%);
+  --gray-orange-theme1: hsl(28, 16%, 65%);
+  --text-dark-theme1: hsl(221, 14%, 31%);
+  --text-white-theme1: hsl(0, 0%, 100%);
+
+  /* Theme 2 */
+  --bg-theme2: hsl(0, 0%, 90%);
+  --toggle-bg-theme2: hsl(0, 5%, 81%);
+  --screen-bg-theme2: hsl(0, 0%, 93%);
+  --key-bg-theme2: hsl(185, 42%, 37%);
+  --key-shadow-theme2: hsl(185, 58%, 25%);
+  --orange-theme2: hsl(25, 98%, 40%);
+  --dark-orange-theme2: hsl(25, 99%, 27%);
+  --yellow-theme2: hsl(45, 7%, 89%);
+  --dark-orange-shadow-theme2: hsl(35, 11%, 61%);
+  --text-dark-theme2: hsl(60, 10%, 19%);
+
+  /* Theme 3 */
+  --bg-theme3: hsl(268, 75%, 9%);
+  --toggle-bg-theme3: hsl(268, 71%, 12%);
+  --screen-bg-theme3: hsl(268, 71%, 12%);
+  --key-bg-theme3: hsl(281, 89%, 26%);
+  --key-shadow-theme3: hsl(285, 91%, 52%);
+  --cyan-theme3: hsl(176, 100%, 44%);
+  --soft-cyan-theme3: hsl(177, 92%, 70%);
+  --dark-violet-theme3: hsl(268, 47%, 21%);
+  --dark-magenta-theme3: hsl(290, 70%, 36%);
+  --text-yellow-theme3: hsl(52, 100%, 62%);
+  --text-dark-blue-theme3: hsl(198, 20%, 13%);
+}

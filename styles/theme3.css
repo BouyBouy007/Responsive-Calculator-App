@@ -1,0 +1,55 @@
+.body-3 {
+  background-color: var(--bg-theme3);
+}
+
+.top-container-3 {
+  color: var(--text-yellow-theme3);
+}
+
+.slider-3 { 
+  background-color: var(--toggle-bg-theme3);
+}
+
+.slider-3::-webkit-slider-thumb { 
+  background-color: var(--cyan-theme3);
+}
+    
+.display-calculation-3 {
+  background-color: var(--screen-bg-theme3);
+  color: var(--text-yellow-theme3);
+}
+
+.input-container-3 { 
+  background-color: var(--screen-bg-theme3);
+}
+
+.calc-button-3 { 
+  background-color: var(--dark-violet-theme3);
+  color: var(--text-yellow-theme3);
+  box-shadow: inset 0 -4px 0 var(--dark-magenta-theme3);
+}
+
+.del-button-3, .reset-button-3 {
+  background-color: var(--key-bg-theme3);
+  color: var(--text-white-theme1);
+  box-shadow: inset 0 -4px 0 var(--key-shadow-theme3);
+}
+
+.equals-button-3 {
+  background-color: var( --cyan-theme3);
+  color: var(--text-dark-blue-theme3);
+  box-shadow: inset 0 -4px 0 var(--soft-cyan-theme3);
+}
+
+.calc-button-3:hover { 
+  background-color: hsl(268, 47%, 60%);
+}
+
+.del-button-3:hover, .reset-button-3:hover { 
+  background-color: hsl(281, 89%, 60%);
+  
+}
+
+.equals-button-3:hover { 
+  background-color: hsl(176, 100%, 60%);
+}
